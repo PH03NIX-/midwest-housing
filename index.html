@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Midwest Housing Solutions</title>
+
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-ui@1.13.2/dist/jquery-ui.min.js"></script>
+    <script src="index.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery-ui@1.13.2/themes/base/selectmenu.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+    <!--------------gives body unique css on homepage only------------->
+    <link rel="stylesheet" href="homepageBody.css">
+
+    <!-------------------Main navbar----------------------->
+    <div id="navbarContainer"></div>
+    <div id="loadingDiv">
+        <div class="spinner-border"></div>
+    </div>
+    <script src="navbar.js"></script>
+
+    <!-------------------landing page------------------>
+    <div id="mainHomeDiv" class="mainHomeFadeDiv">
+        <div id="scrollDiv">
+            <div id="homeOpacityDiv">
+                <!-------------mission statement div------------->
+                <div id="homeContentDiv">
+                    <div class="homeHeaderContainerDiv">
+                        <div class="homeHeaderDiv">
+                            <h1>Midwest Housing Solutions</h1>
+                        </div>
+                    </div>
+                    <div class="homeHeaderContentDiv">
+                        <div>
+                            Committed to building communities by offering affordable, comfortable, and quality housing for everyone. Our goal is to enhance lives by providing homes that are not only cost-effective but also delightful places to live in, ensuring every family has access to a dignified, welcoming living space.
+                        </div>
+                    </div>
+                    <div id="gotoListingsContainerDiv">
+                        <div id="gotoListingsDiv">
+                            <a id="gotoListingsButton" href="./listings.html" class="btn btn-success customSuccess">
+                                View Communities
+                            </a>
+                        </div>
+                    </div>
+                    <div class="homeFooterDiv">
+                    </div>
+                </div>
+
+                <!-------------About us div------------->
+                <div id="aboutUsContainer">
+                    <div class="homeHeaderContainerDiv">
+                        <div class="homeHeaderDiv">
+                            <h1>About Us</h1>
+                        </div>
+                    </div>
+                    <div id="aboutUsDiv">
+
+                        <div class="card-group">
+                            <div class="row row-cols-1 g-4">
+                                <div class="col">
+
+                                    <div class="card">
+                                        <img class="card-img-top" src="./image/Dane.jpg" alt="Dane Searle image">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Dane Searle</h4>
+                                            <p class="card-text">President</p>
+                                            <a href="https://www.linkedin.com/in/dane-searle-09770b54/">LinkedIn</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <img class="card-img-top" src="./image/Marcus.jpg" alt="Marcus Johnson image">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Marcus Johnson</h4>
+                                            <p class="card-text">EVP Strategy</p>
+                                            <a href="https://www.linkedin.com/in/marcusejohnson/">LinkedIn</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <img class="card-img-top" src="./image/Nathan.jpg" alt="Nathan Johnson image">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Nathan Johnson</h4>
+                                            <p class="card-text">EVP Acquisitions</p>
+                                            <a href="https://www.linkedin.com/in/nathan-johnson-b481b980/">LinkedIn</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!------------- footer ------------->
+                        <footer id="footer">
+
+                            <!--<div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <strong>Midwest Housing Solutions</strong>
+                                </div>
+                            </div>-->
+                            <div class="row">
+                                <div class="col-lg-2 col-md-6 col-sm-12">
+                                    <div class="footer-links">
+                                        <h6>Quick Links</h6>
+                                        <ul class="footer-links-list">
+                                            <li><a href="#">Home</a></li>
+                                            <li><a href="./listings/All.html">Listings</a></li>
+                                            <li><a href="./Upcoming.html">Upcoming Housing</a></li>
+                                            <li><a href="./AboutUs.html">About Us</a></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                                <div class="col-lg-2 col-md-6 col-sm-12">
+                                    <div class="footer-contact">
+                                        <h6>Contact Us</h6>
+                                        <ul class="footer-contact-list">
+                                            <!--<li><strong>Phone:</strong> (123) 456-7890</li>-->
+                                            <li><strong>Email:</strong> info@midwest-housing.com</li>
+                                            <!--<li><strong>Address:</strong> 123 Main St, Housing City, HC 12345</li>-->
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </footer>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
+
+

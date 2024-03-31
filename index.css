@@ -1,0 +1,442 @@
+/*
+    https://colorhunt.co/palette/a9907ef3debaabc4aa675d50
+*/
+/**, *:before, *:after {
+    box-sizing: border-box;
+}*/
+
+
+html, body {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+/*body {
+    overflow-y:hidden;
+}*/
+/*#scrollDiv {
+    overflow: hidden, scroll;
+}*/
+
+#loadingDiv {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    background-color: white;
+}
+    #loadingDiv div {
+        color: #ABC4AA;
+        width: 50px;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 50px;
+        height: 50px;
+    }
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color: #ABC4AA !important;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color: #F3DEBA !important;
+}
+
+.listingsNavDropdown:nth-child(1) {
+    border-bottom: 1px solid rgba(0,0,0,.15);
+    margin-bottom: 5px;
+}
+
+/*#navbarBrand {
+    width: 80px;
+}
+
+#navbarBrand img {
+    width: 80px;
+    position: absolute;
+    top: 15px;
+}*/
+#mainDiv {
+    margin: 115px 90px;
+}
+
+.firstItem {
+    margin-bottom: 15px;
+}
+
+#mainDiv .card {
+    height: 100%;
+}
+
+#mainDiv .row > div {
+    padding: 0px 30px 40px 30px;
+}
+
+#lakeRidgeDiv {
+    margin: 115px 90px;
+}
+
+/*#lakeRidgeDiv .carousel-item {
+    max-height: 300px;
+}*/
+
+/*#lakeRidgeDiv img {
+    max-width: 100%;
+}*/
+
+.tCarouselModal .carousel-inner {
+    max-height: calc(100vh - 128px);
+}
+
+.tCarouselModal .modal-footer {
+    padding: 0px 5px;
+    border-top: 0px;
+}
+
+.tCarouselModal .modal-body {
+    /*padding-bottom: 0px;*/
+}
+
+.tCarouselModal .carousel-inner {
+    text-align: center;
+}
+
+.tCarouselModal .carousel-inner {
+    text-align: center;
+}
+
+.tCarouselModal .carousel-control-prev {
+    background-image: linear-gradient(to right, rgb(0,0,0,0.2), rgb(0,0,0,0));
+}
+
+.tCarouselModal .carousel-control-next {
+    background-image: linear-gradient(to right, rgb(0,0,0,0), rgb(0,0,0,0.2));
+}
+
+.tCarouselModal .carousel-control-prev:hover {
+    background-image: linear-gradient(to right, rgb(0,0,0,0.3), rgb(0,0,0,0));
+}
+
+.tCarouselModal .carousel-control-next:hover {
+    background-image: linear-gradient(to right, rgb(0,0,0,0), rgb(0,0,0,0.3));
+}
+
+.tCarouselModal img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*.modal-content {
+    width: fit-content;
+}*/
+
+.cardDetails {
+    padding: 0px 5px;
+    background-color: #f0f5f0;
+    margin-bottom: 10px;
+}
+
+.adressLine2 {
+    margin-top: -15px;
+}
+
+.tMainDiv .card-body {
+    padding: 0px 20px 20px 20px;
+}
+
+.tMainDiv .card {
+    margin: 0px 10px 40px 10px
+}
+
+#mainHomeDiv {
+    height: 100vh;
+    width: 100vw;
+    /*background-image: url('./image/main_bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;*/
+
+}
+/*.mainHomeFadeDiv:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px; 
+    background: linear-gradient(to bottom, transparent, #00000011);
+    pointer-events: none; 
+}*/
+
+#homeOpacityDiv {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(255,255,255,0.6);
+    /*background-color: #675D50;
+    opacity: 50%;*/
+}
+
+#homeContentDiv {
+    background-color: white;
+    width: 100vw;
+    /*height: 150px;*/
+    position: relative;
+    top: 266px;
+    margin-bottom: 200px;
+}
+
+.homeHeaderDiv {
+    width: calc(100% - 40vw);
+    max-width: 700px;
+    height: 80px;
+    background-color: white;
+    border-radius: 100px;
+    position: relative;
+    /*top: -40px;*/
+    top: -20px;
+    /*margin: 0px 80px 0px 80px;*/
+    padding: 10px 38px;
+    color: #ABC4AA;
+}
+
+.homeHeaderContainerDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+}
+
+.homeHeaderContentDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.homeHeaderContentDiv > div {
+    margin: 45px 30px;
+    text-align: center;
+    max-width: 400px;    
+    color: #343a40;
+    z-index: 100;
+    line-height: 3;
+}
+
+.homeFooterDiv {
+    background-color: #A9907E;
+    width: 100%;
+    height: 0px;
+}
+
+/*#gotoListingsButtonDiv {*/
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+    /*width: 100%;
+    text-align: right;
+    margin-top: -7px !important;
+    margin-right: -7px !important;
+}*/
+
+#gotoListingsContainerDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+}
+
+#gotoListingsDiv {
+    width: calc(100% - 40vw);
+    max-width: 700px;
+    height: 80px;
+    background-color: white;
+    text-align:right;
+    padding-right: 39px;
+    /*border-radius: 100px;
+    position: relative;
+    top: -40px;
+    padding: 10px 38px;
+    color: #ABC4AA;*/
+}
+
+.customSuccess {
+    background-color: #79a178 !important;
+    border-color: #5f875e !important;
+}
+    .customSuccess:hover {
+        background-color: #5f875e !important;
+    }
+    .customSuccess:active {
+        background-color: #ABC4AA !important;
+    }
+
+#aboutUsSpacer {
+    height: 138px;
+}
+
+#aboutUsContainer {
+    background-color: white;
+    width: 100vw;
+    position: relative;
+    top: 205px;
+}
+
+#aboutUsDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#aboutUsDiv .card {
+    flex-direction: row;
+    width: 300px;
+    max-width: 40vw;
+    margin-bottom: 60px;
+}
+    #aboutUsDiv .card img {
+       
+    }
+
+
+#footer {
+    background-color: #675D50;
+    color: white;
+    text-align: center;
+    padding: 50px 0 30px 0;
+    margin-top: 110px;
+    width: 100%;
+    text-align: left;
+
+}
+    #footer .footer-about, #footer .footer-links, #footer .footer-contact {
+        margin-bottom: 20px;
+        padding-left:30px;
+    }
+    /*#footer .row div, #footer .row h6, #footer .row p, #footer .row a, #footer .row ul, #footer .row li {
+        padding-right: 0px;
+    }*/
+    #footer h6 {
+        margin-top: 0;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+    #footer p {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+    #footer .row>div {
+        margin-bottom: 20px;
+    }
+    #footer a {
+        color: #F3DEBA;
+        text-decoration: none;
+    }
+        #footer a:hover {
+            text-decoration: underline;
+        }
+    #footer ul {
+        list-style: none;
+        padding-left: 0;
+    }
+        #footer ul li {
+            line-height: 2.5;
+        }
+            #footer ul li strong {
+                font-weight: bold;
+            }
+
+
+
+a {
+    color: #A9907E;
+    color: #ABC4AA;
+    color: #675D50;
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline !important;
+        color: #675D50;
+    }
+
+
+/*
+.site-footer {
+    background-color: #675D50;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+    margin-top: 150px;  
+}
+
+    .site-footer .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+        max-width: 1200px;
+        max-width: 100vw;
+        margin: 0 auto;
+    }
+
+    .site-footer .row {
+        width: 100%;
+    }
+
+.footer-about, .footer-links, .footer-contact {
+    margin-bottom: 20px;
+}
+
+.site-footer h6 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.site-footer p {
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.site-footer a {
+    color: #F3DEBA;
+    text-decoration: none;
+}
+
+    .site-footer a:hover {
+        text-decoration: underline;
+    }
+
+.site-footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+    .site-footer ul li {
+        line-height: 2.5;
+    }
+
+        .site-footer ul li strong {
+            font-weight: bold;
+        }
+
+*/
+
+
+
+
+.displayNone {
+    display: none;
+}
+ .opacityZero {
+     opacity: 0;
+ }
